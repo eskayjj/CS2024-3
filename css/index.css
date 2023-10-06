@@ -1,8 +1,9 @@
 nav{
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Gabarito', cursive;
     text-align: right;
-    height: 80px;
     position: relative;
+    height: 80px;
+    bottom: 0;
 }
 
 nav a{
@@ -41,7 +42,7 @@ nav a{
 }
 
 #whiteBG p{
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Gabarito', cursive;
     font-size: 18px;
     width: 445px;
     margin-top: 254px;
@@ -49,7 +50,7 @@ nav a{
 }
 
 #whiteBGBtn{
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Gabarito', cursive;
     font-size: 18px;
     border-radius: 8px;
     margin-left: 212px;
@@ -78,10 +79,6 @@ nav a{
 
 .contentBox div{
     margin-top: 33%;
-    /* position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%); */
 }
 
 .contentBox label{
@@ -94,7 +91,7 @@ nav a{
 
 .contentBox p{
     color: #fcfaf2;
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Gabarito', cursive;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
@@ -110,48 +107,4 @@ nav a{
     height: 500px;
     width: 500px;
     margin: 80px 80px 0px auto;
-}
-
-.footer{
-    display: flex;
-    height: 200px;
-    background-color: #383836;
-}
-
-#footerLeft{
-    /* background-color: black; */
-    margin-top: 15px;
-    margin-left: 80px;
-}
-
-#footerLeft p{
-    font-family: 'Gabarito', sans-serif;
-    color: #fcfaf2;
-    font-size: 25px;
-}
-
-#email{
-    font-family: 'Gabarito', sans-serif;
-    width: 328px;
-    height: 43px;
-    font-size: 25px;
-}
-
-#subscribe{
-    font-family: 'Gabarito', sans-serif;
-    height: 43px;
-    width: 135px;
-    font-size: 20px;
-    border-radius: 7px;
-    color: #fcfaf2;
-    background-color: #708c98;
-    cursor: pointer;
-}
-
-#footerRight{
-    margin-top: 40px;
-    margin-left: 353px;
-    font-size: 25px;
-    font-family: 'Gabarito', sans-serif;
-    color: #fcfaf2;
 }

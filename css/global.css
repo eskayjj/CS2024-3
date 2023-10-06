@@ -1,7 +1,70 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Gabarito', cursive;
+font-family: 'Kaisei Opti', serif; */
+
+header{
+    height: 180px;
+    background-color: #535B50;
+    position: relative;
+}
+
+nav a{
+    color: #fcfaf2;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
 body{
     max-width: 1280px;
     margin: auto;
 }
-/* font-family: 'DM Serif Display', serif;
-font-family: 'Gabarito', cursive;
-font-family: 'Kaisei Opti', serif; */
+
+.footer{
+    display: flex;
+    height: 200px;
+    background-color: #383836;
+}
+
+#footerLeft{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+#footerLeft p{
+    font-family: 'Gabarito', cursive;
+    color: #fcfaf2;
+    font-size: 25px;
+}
+
+#email{
+    font-family: 'Gabarito', cursive;
+    width: 328px;
+    height: 43px;
+    font-size: 25px;
+}
+
+#subscribe{
+    font-family: 'Gabarito', cursive;
+    height: 43px;
+    width: 135px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: #fcfaf2;
+    background-color: #708c98;
+    cursor: pointer;
+}
+
+#footerRight{
+    margin-top: 40px;
+    margin-left: 353px;
+    font-size: 25px;
+    font-family: 'Gabarito', cursive;
+    color: #fcfaf2;
+}
+
+#footerRight img{
+    height: 55px;
+    width: 55px;
+    margin-top: 15px;
+}
