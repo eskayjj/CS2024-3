@@ -1,0 +1,114 @@
+nav{
+    font-family: 'Gabarito', cursive;
+    text-align: right;
+    height: 80px;
+    bottom: 0;
+}
+
+#rightContent{
+    margin-right: 65px;
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#title{
+    position: absolute;
+    font-family: 'Gabarito', cursive;
+    bottom: 0;
+    margin-bottom: 21px;
+    margin-left: 80px;
+    color: #fcfaf2;
+    font-size: 50px;
+}
+
+#content{
+    background-color: #535B50;
+}
+
+#description{
+    font-family: 'Gabarito', cursive;
+    font-size: 20px;
+    color: #fcfaf2;
+    text-align: justify;
+    height: 107px;
+    width: 736px;
+    line-height: 24px;
+    margin-left: 80px;
+    margin-bottom: 29px;
+}
+
+#parent{
+    position: relative;
+    /* background-color: blue; */
+}
+
+#reserveForm{
+    background-color: #fcfaf2;
+    width: 539px;
+    height: 358px;
+    margin-left: 142px;
+    margin-bottom: 88px;
+}
+
+#reserveForm p{
+    text-align: center;
+    padding-top: 35px;
+
+    font-size: 40px;
+    color: #284358;
+    font-family: 'DM Serif Display', serif;
+}
+
+#reserveForm form{
+    margin-left: 46px;
+}
+
+#reserveForm form input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: #ADADAD
+}
+
+#reserveForm form label{
+    font-family: 'Gabarito', cursive;
+    font-size: 15px;
+}
+
+#reserveForm form label[for=date]{
+    padding-left: 85px;
+}
+
+#seatingCounter{
+    margin-left: 55px;
+}
+
+#submit{
+    border-radius: 10px;
+    background-color: #708C98;
+    color: #fcfaf2;
+    border: none;
+    height: 35px;
+    width: 130px;
+}
+
+#sideImage{
+    /* margin-right: 143px;
+    margin-bottom: 103px;
+    background-color: black; */
+    /* padding-left: -50px; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 143px;
+    margin-bottom: 103px;
+}
+
+#sideImage img{
+    height: 331px;
+    width: 497px;
+}

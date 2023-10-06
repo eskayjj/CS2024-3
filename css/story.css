@@ -13,15 +13,6 @@ nav{
     right: 0;
 }
 
-#mainImage{
-    position: relative;
-}
-
-#mainImage img{
-    height: 300px;
-    width: 1280px;
-}
-
 /* for fading */
 /* #mainImage img:after{
     content:""; 
@@ -49,7 +40,7 @@ nav{
 
 #topText{
     font-family: 'DM Serif Display', serif;
-    color: white;
+    color: #c68e8d;
     padding-top: 80px;
     margin-left: 80px;
     max-width: 768px;
@@ -62,6 +53,7 @@ nav{
     font-family: 'Gabarito', cursive;
     width: 768px;
     font-size: 15px;
+    color: #fcfaf2;
 }
 
 #pictures{
