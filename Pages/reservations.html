@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hikari-Reservations</title>
+    <title>Reservations</title>
+    <link rel="icon" type="image/x-icon" href="../icons/favicon_io (1)/favicon-16x16.png">
     <link rel="stylesheet" type="text/css" href="../css/reservations.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +16,9 @@
 <body>
     <header>
         <nav>
+            <div id="logo">
+                <img src="../icons/izakaya hikari logo.png">
+            </div>
             <div id="rightContent">
                 <a href="index.html"><b>Home</b></a> 
                 <a href="story.html"><b>Our Story</b></a> 
@@ -27,33 +31,69 @@
         <div id="title"><b>Dine with Us</b></div>
     </div>
     <div id="content">
-        <div id="description">
-            <p>
-                Experience the magic of Japan at Hikari Izakaya. Whether you're celebrating a special occasion or simply indulging in an evening out, 
-                we promise an unforgettable dining experience. Reserve your table now and immerse yourself in the flavours and culture of Japan.
-            </p>
+        <div id="container">
+            <div id="description">
+                <p>
+                    Experience the magic of Japan at Hikari Izakaya. Whether you're celebrating a special occasion or simply indulging in an evening out, 
+                    we promise an unforgettable dining experience. Reserve your table now and immerse yourself in the flavours and culture of Japan.
+                </p>
+            </div>
+            <div id="locationIcon">
+                <img src="../icons/Reservation_assets/Pin_alt_fill@3x.png"/>
+            </div>
+            <div id="address">
+                <div id="pinkTitle">Find us at</div>
+                <p>Fortune Centre<br>190 Middle Road<br>#03-01<br>Singapore 188979</p>
+            </div>
         </div>
         <div id="parent">
             <div id="reserveForm">
                 <p>Reservation Form</p>
                 <form>
-                    <label for="firstName">Name</label>
-                    <br>
-                    <input type="text" placeholder="First Name" name="firstName" id="firstName">
-                    <input type="text" placeholder="Last Name"  name="lastName" id="lastName">
-                    <br>
-                    <label for="contact">Contact Number</label>
-                    <label for="date">Reservation Date</label>
-                    <br>
-                    <input type="text" name="contact" id="contact">
-                    <input type="date" name="date" id="date">
-                    <br>
-                    <label>Seating Type</label>
-                    <br>
-                    <input type="radio" name="seatingTable" id="seatingTable">
-                    <label for="seatingTable">Table</label>
-                    <input type="radio" name="seatingCounter" id="seatingCounter">
-                    <label for="seatingCounter">Counter</label><br>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="firstName">Name</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="First Name" name="firstName" id="firstName">
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Last Name"  name="lastName" id="lastName">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="contact">Contact Number</label>
+                            </td>
+                            <td>
+                                <label for="date">Reservation Date</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="contact" id="contact">
+                            </td>
+                            <td>
+                                <input type="date" name="date" id="date">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label id="seating">Seating Type</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="seatingTable" id="seatingTable">
+                                Table
+                                <input type="radio" name="seatingCounter" id="seatingCounter">
+                                Counter
+                            </td>
+                        </tr>
+                    </table>
                     <input type="submit" value="Submit" name="submit" id="submit">
                 </form>
             </div>

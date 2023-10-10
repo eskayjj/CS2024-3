@@ -20,11 +20,23 @@ nav a{
     margin-left: 15px;
 }
 
+#logo img{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+#logo{
+    text-align: left;
+}
+
 .mainImage{
     position: relative;
 }
 
 .mainImage img{
+    display: block;
     height: 300px;
     width: 1280px;
 }
@@ -41,8 +53,9 @@ body{
 }
 
 #footerLeft{
-    padding-top: 15px;
+    margin-top: 15px;
     margin-left: 80px;
+    /* background-color: black; */
 }
 
 #footerLeft p{
@@ -76,6 +89,7 @@ body{
     font-size: 25px;
     font-family: 'Gabarito', cursive;
     color: #fcfaf2;
+    /* background-color: black; */
 }
 
 #footerRight img{
