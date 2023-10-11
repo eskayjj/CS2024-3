@@ -13,9 +13,25 @@ header{
     position: relative;
 }
 
+nav{
+    font-family: 'Gabarito', cursive;
+    text-align: right;
+    height: 80px;
+    bottom: 0;
+}
+
+#rightContent{
+    margin-right: 65px;
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
 nav a{
     color: #fcfaf2;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 15px;
 }
@@ -61,14 +77,14 @@ body{
 #footerLeft p{
     font-family: 'Gabarito', cursive;
     color: #fcfaf2;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #email{
     font-family: 'Gabarito', cursive;
     width: 328px;
     height: 43px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #subscribe{
@@ -86,7 +102,7 @@ body{
 #footerRight{
     padding-top: 40px;
     margin-left: 353px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Gabarito', cursive;
     color: #fcfaf2;
     /* background-color: black; */
